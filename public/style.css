@@ -1,183 +1,186 @@
+/* A Free Design by Bryant Smith (bryantsmith.com) */
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
+
 body {
 	margin: 0;
-	font-family: verdana, arial, sans-serif;
-	background-color: #eee;
-}
-#container {
-	margin: 0 auto;
-	width: 700px;
-}
-#header {
-	width: 700px;
-	height: 200px;
-	line-height: 200px;
-	text-align: center;
-	font-size: 36px;
-	margin-top: 10px;
-	margin-left: 7px;
-	background-image: url('images/header.png');
-	color: white;
-}
-#nav a {
-	color: white;
-}
-
-#nav {
-	height: 50px;
-	line-height: 50px;
-	width: 700px;
-	margin-top: 10px;
-	margin-left: 7px;
-}
-#nav ul {
-	list-style-type: none;
-	margin: 0 ;
 	padding: 0;
-	background-image: url('images/nav.png');
-}
-#nav ul li {
-	display: inline;
-	padding-top: 12px;
-	padding-bottom: 12px;
-	background-image: url('images/navseparator.png');
-	background-repeat: no-repeat;
-	background-position: right;
-	padding-right: 10px;
-	padding-left: 10px;
-}
-#nav ul li #end {
-	background: 0;
-}
-#navleft {
-	float: left;
-	width: 25px;
-	height: 50px;
-	background-color: #eee;
-	background-image: url('images/navleft.png');
-}
-#navright {
-	float: right;
-	width: 25px;
-	height: 50px;
-	margin-top: -50px;
-	background-color: #eee;
-	background-image: url('images/navright.png');
-}
-
-#shadow-top {
-	width: 712px;
-	height: 10px;
-	font-size: 0px;
-	margin-top: 10px;
-	background-image: url('images/shadowtop.png');
-}
-#shadow-bottom {
-	width: 712px;
-	height: 10px;
-	background-image: url('images/shadowbottom.png');
-	clear: both;
-}
-#sidebar {
-	width: 185px;
-	margin-right: 6px;
-	margin-top: -4px;
-	padding-left: 15px;
-	padding-right: 15px;	
-	float: right;
-	margin-left: auto;
-}
-div.block {
-	padding-top: 5px;
-	width: 95%;
-	margin-left:auto;
-	margin-right: auto;
-}
-div.blockheader {
-	padding: 2px;
-	background-image: url('images/blockheader.png');
-}
-div.blockcontents {
-	border: 1px solid #e7e7e7;
-	background-color: white;
-	padding: 5px;
-}
-#text {
-	width: 696px;
-	padding-left: 16px;
-	padding-top: 6px;
-	float: left;
+	background: #697281;
 	text-align: left;
-	background-image: url('images/shadowbody.png');
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #F1F5F8;
+	background-color:#2A2A2A;
 }
-#left {
-	width: 460px;
-	border-right: 1px solid #aaa;
-	padding-right: 15px;
-}
-#credit {
-	margin-left: 6px;
-	font-size: 12px;
-}
-h1, h2, h3, h4, h5, h6 {
-	padding: 0;
-	margin: 0;
-}
-
-#text h2 {
-	color: black;
-	margin-bottom: 5px;
-}
-#text h3, h4, h5, h6 {
-	margin-bottom: 5px;
-}
-#text table {
-	border-collapse: collapse;
-}
-#text th {
-	background-color: #eee;
-}
-#text h1 {
-	font-size: 24px;
-	border-bottom: 1px solid #aaa;
-	color: black;
-	margin-bottom: 7px;
-}
-#text ul
+*
 {
-	margin-left: 10px;
-	padding-left: 0;
-	list-style: none;
-}
+  margin: 0 auto 0 auto;
+ text-align:left;}
 
-#text ul li
+
+/* A Free Design by Bryant Smith (bryantsmith.com) */
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
+
+
+
+
+
+#page
 {
-	padding-left: 13px;
-	background-image: url('images/bullet.png');
-	background-repeat: no-repeat;
-	background-position: 0 .4em;
-}
-#text img.image {
-	border: 1px solid #245fa9;
-}
-#text img.imageright {
-	border: 1px solid #245fa9;
-	float: right
-}
-#text img.imageleft {
-	border: 1px solid #245fa9;
-	float: left;
-}
-#quote {
-	padding: 10px;
-	margin: 10px 0;
-	background-color: #c8d5e6;
-	border-left: 5px solid #245fa9;
-}
-#wbox {
-	padding: 10px;
-	margin: 10px 0;
-	border-left: 5px solid #ffae00;
-	background-color: #ffe79f
+  margin: 0 auto 0 auto; 
+  margin-top:25px;
+  display: block; 
+  height:auto;
+  position: relative; 
+  overflow: hidden; 
+  background: url(images/background.png) repeat-y;
+  width: 738px;
 }
 
+#header
+{
+background-image:url(images/header.png);
+background-repeat:no-repeat;
+height:111px;
+width:738px;
+}
+
+#header h1
+{
+position:relative;
+left:30px;
+top:25px;
+color:#F6F6F6;
+text-align:left;
+font-size:40px;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+#header h2
+{
+position:relative;
+left:33px;
+top:21px;
+color:#2C2C2C;
+text-align:left;
+font-size:17px;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+
+#bar
+{
+background-image:url(images/bar.png);
+background-repeat:no-repeat;
+height:55px;
+width:750px;
+line-height:55px;
+padding-left:20px;
+padding-right:20px;
+}
+
+#bar .link
+{
+float:left;
+height:55px;
+}
+
+#bar .link:hover
+{
+background-image:url(images/linkrollover.png);
+background-repeat:no-repeat;
+background-position:center;
+
+
+}
+
+
+#bar a
+{
+font-size:14px;
+font-weight:bold;
+color:#FBFDFB;
+margin-left:27px;
+margin-right:27px;
+
+}
+
+#bar a:hover
+{
+color:#999999;
+}
+
+
+
+.contentTitle
+{
+width:676px;
+height:37px;
+margin-top:20px;
+margin-left:25px;
+margin-right:25px;
+margin-bottom:10px;
+background-image:url(images/tab_back.png);
+background-repeat:no-repeat;
+
+}
+
+.contentTitle h1
+{
+margin-left:10px;
+padding-top:8px;
+font-size:20px;
+font-weight:bold;
+color:#071027;
+}
+
+.comments
+{
+font-size:11px;
+font-style:italic;
+}
+
+.contentText
+{
+width:680px;
+padding-left:30px;
+padding-right:30px;
+font-size:13px;
+color:#030712;
+line-height:30px;
+letter-spacing:-1px;
+}
+
+a
+{
+text-decoration:none;
+color:#2A2A2A;
+border-bottom:1px dashed #2A2A2A;
+}
+
+a:hover
+{
+color:#8F8F8F;
+border-bottom:1px dotted #2A2A2A;
+}
+
+
+#footer {
+width: 738px;
+height:53px;
+background: url(images/footer.png) no-repeat;
+text-align:center;
+font-size:9px;
+color:#2A2A2A;
+padding-top:25px;
+}
 
